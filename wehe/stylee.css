@@ -2,6 +2,7 @@
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 body
 {
     margin: 0;
@@ -55,16 +56,34 @@ nav a:hover li
 {
     background-color: cornsilk;
 }
+
 .tartalom
 {
     background-color: wheat;
 }
+
 footer
 {
     background-color: antiquewhite;
     text-align: center;
     min-height: 50px;
     padding-top: 15px;
+}
+
+.infobox
+{
+    background-color: lemonchiffon;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid darksalmon;
+    border-radius: 5px;
+}
+
+.infobox h3
+{
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid darksalmon;
 }
 
 #grid-container
