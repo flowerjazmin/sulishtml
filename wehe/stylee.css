@@ -60,6 +60,7 @@ nav a:hover li
 .tartalom
 {
     background-color: wheat;
+    padding: 15px;
 }
 
 footer
@@ -84,6 +85,13 @@ footer
     margin: 0;
     text-align: center;
     border-bottom: 1px solid darksalmon;
+}
+
+.tartalom h2
+{
+    font-family: cursive;
+    text-align: center;
+    font-variant: small-caps;
 }
 
 #grid-container
@@ -118,6 +126,6 @@ footer
     header { grid-column: 1 / 4; }
     nav { grid-column: 1 ; }
     .jobbsav { grid-column: 3; }
-    .tartalom { grid-column: 2; }
+    .tartalom { grid-column: 2; grid-row: 2; }
     footer { grid-column: 1 / 4; }
 }
