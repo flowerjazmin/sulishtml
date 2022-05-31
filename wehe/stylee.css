@@ -129,3 +129,10 @@ footer
     .tartalom { grid-column: 2; grid-row: 2; }
     footer { grid-column: 1 / 4; }
 }
+
+.tartalom picture *
+{
+    max-width: 100%;
+    float: left;
+    margin-right: 10px;
+}
